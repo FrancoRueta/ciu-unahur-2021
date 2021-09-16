@@ -1,0 +1,27 @@
+.miembro-del-imperio {
+    background-color:red;
+}
+
+.miembros-rebeldes {
+    background-color:blue;
+}
+
+#darth-vader {
+    font-size: 36px;
+}
+
+#luke-skywalker {
+    font-style: italic;
+}
+
+.soldados {
+    border: 8px dashed #3d37ff;
+}
+
+.soldados-texto {
+    letter-spacing:2px;
+}
+
+.unidades-apoyo {
+    text-align: center;
+}
