@@ -1,0 +1,28 @@
+.btn-beep{
+    padding:20%;
+    background-color: aquamarine;
+    color: black
+    
+}
+
+.btn-beep:hover{
+    background-color:aqua
+}
+
+
+
+
+.color{
+    background-color:black;
+    color: white;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}

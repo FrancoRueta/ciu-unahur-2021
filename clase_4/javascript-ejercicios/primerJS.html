@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>¡Bienvenido!</h1>
+
+    <div class="divpunto2">
+        <h3>HOLA</h3>
+        <p>hola 2 :B</p>
+    </div>
+
+    <div class="square">
+        <p>asd</p>
+    </div>
+    
+
+    <script>
+        //-----------------------------------------------------------------------------------------
+        //---------------------------------------punto-1-------------------------------------------
+        let nombre = prompt("Introduzca su nombre:");
+        alert(`¡Bienvenido, ${nombre}!`);
+        let edad = prompt("Introduzca su edad:");
+        alert(`Tenes ${edad} años?! Que bien!!`)
+        console.log(edad);
+        alert(`Parece ser que te llamas ${nombre} y tenes ${edad} años, increible!`);
+        //calcular edad.
+
+
+        alert(`Dato interesante, tenes ${edad * 365} dias de vida!`);
+
+        //-----------------------------------------------------------------------------------------
+        //---------------------------------------punto-2-------------------------------------------
+        let divPunto2 = document.getElementsByClassName("divpunto2")[0];
+        divPunto2.style.background="gray";
+        divPunto2.style.padding = "2px 16px 128px 16px";
+
+
+    </script>
+</body>
+</html>
